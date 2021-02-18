@@ -3,6 +3,11 @@ package com.example.contacts_pacewisdomsolutions;
 public class ContactList {
     String Name;
 
+    public ContactList(String name, String phoneNo) {
+        this.Name=name;
+        this.PhoneNo=phoneNo;
+    }
+
     public String getName() {
         return Name;
     }
